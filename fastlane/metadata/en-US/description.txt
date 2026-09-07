@@ -1,0 +1,13 @@
+Cresset is a reading board. You place a book on a genre isle, log minutes into Wake, then Step a token across that isle's tiles.
+
+• Board shows genre isles named Fable, Lyric, Chronicle, Tract, Scene, Inquiry, Voyage, and Hearth.
+• Place a book with Title, Page count, Genre isle, and Pace, pages per minute, then Moor this volume.
+• Log minutes on the moored isle. Pages equal minutes times pace and add to Wake. The token stays put until you Step.
+• When Wake holds ten pages, Step writes a TileMark, spends ten pages, and walks one tile.
+• The first TileMark lights the lighthouse and unlocks the eight-tile ring. Each isle has eight tiles.
+• A sitting that leaves Wake under ten still saves.
+• Analytics lists TileMarks, lamps, and sittings, and opens Wake then step.
+• Settings shows Local harbor, Re-run onboarding, Reset all data, and Contact Cresset.
+• Volumes, sittings, TileMarks, and lamps stay on this device.
+
+Open Board to walk tiles, Analytics to count TileMarks and lamps, and Settings for Local harbor.

@@ -1,0 +1,1 @@
+Place a book on a genre isle, log minutes into Wake, and Step when Wake holds ten pages. The first TileMark lights the lighthouse.

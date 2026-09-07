@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F44787AC7C36EE8D4D871E6 /* BeaconSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF4E622B28DDEC1D193EC6B /* BeaconSettings.swift */; };
+		15CCBF423F32813898008DF7 /* Archipelago.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511212292120E063F5CDB4C5 /* Archipelago.swift */; };
+		171121659C533C707D8037AA /* Lamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7F701D858FD0586E62B217 /* Lamp.swift */; };
+		1BA98A30B3D2A05D6A3EE64A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD2D0278C7B078E65C1BA43 /* AppDelegate.swift */; };
+		1C161EAAF2827C2219DF012F /* HarborFoldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88CB25F652E735B1C1EA84A /* HarborFoldTests.swift */; };
+		1F1941A5E7EAB4E311444322 /* HarborSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9261670DC720A96E295AE928 /* HarborSeed.swift */; };
+		240B4527E8A34C33474D9790 /* LampVacancy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB51CC773816DEDF67314235 /* LampVacancy.swift */; };
+		312EB172732B00560E45A80A /* CressetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F468D74FA1420DC2317C2A13 /* CressetTests.swift */; };
+		34FCEBB46B92732B68FAB293 /* LampPassage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6023C8D03E338ED745993F18 /* LampPassage.swift */; };
+		35BA682FFA7650DC77BBA97D /* HarborWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE6F7C8143B94DC6ED9287E /* HarborWatchTests.swift */; };
+		371EEDEDB45F5553968B5465 /* MarksAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3055A39F034BD02346CE6197 /* MarksAnalytics.swift */; };
+		3BFCB6DA29765AA6AA2E6369 /* WakeThenStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B7942D8FEE84AC5B083059 /* WakeThenStep.swift */; };
+		428C1F6413F0B5A5BBEC25F5 /* HarborStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FB65E2BD30C7745F3CBA45 /* HarborStore.swift */; };
+		4344F5C7FD5B395F90DC3BB6 /* HarborWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E1B0DC244214B89B6558D8 /* HarborWatch.swift */; };
+		475AD719DCBF91E16F9C464E /* BeaconClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E9522B037C47E46977FC9B /* BeaconClientTests.swift */; };
+		4DAAF80A070366E5B165A10A /* HarborHold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCC946DAC34A7AAF0271001 /* HarborHold.swift */; };
+		4FC6716F7A2D58FCE6ABE5DE /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7171661F84F0A4FBD617C6DF /* APIConfig.swift */; };
+		521ABA571FD4D5FDDE4DF885 /* Volume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8C923D75D21E25F13BC961 /* Volume.swift */; };
+		5582E10F8D9BAFA3102DA6B5 /* HarborCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEAB58BE7B059466C0AC17B /* HarborCodec.swift */; };
+		56BD249E687E6C1DF637BC91 /* CressetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2386B819AB77DC33279C6843 /* CressetApp.swift */; };
+		5FE01E570774BB0E9E61E675 /* Wake.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB21137BB6308044D8B7C6E0 /* Wake.swift */; };
+		7B19A2E2FB34A1D8CA7AB348 /* HarborInk.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45ACFB065A97762A6A16984 /* HarborInk.swift */; };
+		7CAA0F655C9FE5FF23C9FB94 /* DriftCaption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7F3822272A013141F20B2B /* DriftCaption.swift */; };
+		7D52757511B06589E2A6A3FA /* SittingDraft.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2E22609DDD21FD63B7C7CA /* SittingDraft.swift */; };
+		8084381E7AE712A3241EFC44 /* Drift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7509DBB3236D7AA9048A51A0 /* Drift.swift */; };
+		83A6CF748AE3B3447B111BBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F9240DC6EC0BE0AA288A49 /* ContentView.swift */; };
+		8E42261C755ACD98FE139474 /* MooringDraft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410CFF8593D62C5F6B8D0084 /* MooringDraft.swift */; };
+		8E6C558E19EB25AE4B34B925 /* LampFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99D824463E84285FB50C2C4 /* LampFace.swift */; };
+		8FC4E443361D991B941E656C /* TileMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC2F2917C05C887F6562FD0 /* TileMark.swift */; };
+		B30A2B3A9346CC51E604F4F9 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C8FAB9FD0176B8520D4BE9DB /* Alamofire */; };
+		B8F98DE2DD2B88B6483C91BE /* Sitting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CE0BD206CF9C1E52D4842A /* Sitting.swift */; };
+		BDEE3E26E9B22C2DDBADC045 /* ArchipelagoTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F12F3970AAD7666FEA0C11 /* ArchipelagoTabs.swift */; };
+		C5CD6CDFC3A4EFFA9D374F53 /* BoardHarbor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4753BBFD8589B71D23DF17F /* BoardHarbor.swift */; };
+		CCD4574C77DEC90CCD8D1D16 /* LampFigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBCD2B827458CF68260B9B3 /* LampFigure.swift */; };
+		D4ED72AD391FBB5B8B39E3D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2B09609EF091E0598A7BA0D /* Assets.xcassets */; };
+		D75EF2879BA9E4C8459BBC74 /* BeaconLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75C1543EFDFE22DE470F0FC /* BeaconLaunchTests.swift */; };
+		DB90D8946E1D5AF09B1E6DA4 /* HarborStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E2D9ED42CEEF11CBDA066C /* HarborStoreTests.swift */; };
+		DEE920DB34D62F93C60B3EC8 /* BeaconLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F03D771742D5294F58DFE9 /* BeaconLaunch.swift */; };
+		EA62C955D0472A76BE363CAF /* Isle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565FDC3EA5EFAA17A65007A3 /* Isle.swift */; };
+		F0DE3CBF44B704321A5E3BD1 /* BeaconClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AA41395DC280CE0760276B /* BeaconClient.swift */; };
+		F670173E5DF7F284779193DB /* DayStamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1940F90F0A812B4E9F266A86 /* DayStamp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A5D9FEC26588CF85FE114E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B072BBBEF876FAF5C2858E82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAFCB456927104CEA846AF63;
+			remoteInfo = Cresset;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CCC946DAC34A7AAF0271001 /* HarborHold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarborHold.swift; sourceTree = "<group>"; };
+		0CE6F7C8143B94DC6ED9287E /* HarborWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarborWatchTests.swift; sourceTree = "<group>"; };
+		1940F90F0A812B4E9F266A86 /* DayStamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayStamp.swift; sourceTree = "<group>"; };
+		19E1B0DC244214B89B6558D8 /* HarborWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarborWatch.swift; sourceTree = "<group>"; };
+		1DD16B443D2E45011F267936 /* Cresset.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Cresset.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2386B819AB77DC33279C6843 /* CressetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CressetApp.swift; sourceTree = "<group>"; };
+		3055A39F034BD02346CE6197 /* MarksAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarksAnalytics.swift; sourceTree = "<group>"; };
+		30AA41395DC280CE0760276B /* BeaconClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconClient.swift; sourceTree = "<group>"; };
+		410CFF8593D62C5F6B8D0084 /* MooringDraft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MooringDraft.swift; sourceTree = "<group>"; };
+		511212292120E063F5CDB4C5 /* Archipelago.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Archipelago.swift; sourceTree = "<group>"; };
+		565FDC3EA5EFAA17A65007A3 /* Isle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Isle.swift; sourceTree = "<group>"; };
+		6023C8D03E338ED745993F18 /* LampPassage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LampPassage.swift; sourceTree = "<group>"; };
+		65F12F3970AAD7666FEA0C11 /* ArchipelagoTabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchipelagoTabs.swift; sourceTree = "<group>"; };
+		6C8C923D75D21E25F13BC961 /* Volume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Volume.swift; sourceTree = "<group>"; };
+		6E7F701D858FD0586E62B217 /* Lamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lamp.swift; sourceTree = "<group>"; };
+		7171661F84F0A4FBD617C6DF /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		74208FD732092356B5A2C72A /* CressetTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = CressetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7509DBB3236D7AA9048A51A0 /* Drift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drift.swift; sourceTree = "<group>"; };
+		7B7F3822272A013141F20B2B /* DriftCaption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriftCaption.swift; sourceTree = "<group>"; };
+		83FB65E2BD30C7745F3CBA45 /* HarborStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarborStore.swift; sourceTree = "<group>"; };
+		88CE0BD206CF9C1E52D4842A /* Sitting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sitting.swift; sourceTree = "<group>"; };
+		9261670DC720A96E295AE928 /* HarborSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarborSeed.swift; sourceTree = "<group>"; };
+		96B7942D8FEE84AC5B083059 /* WakeThenStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeThenStep.swift; sourceTree = "<group>"; };
+		A4E9522B037C47E46977FC9B /* BeaconClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconClientTests.swift; sourceTree = "<group>"; };
+		A5F9240DC6EC0BE0AA288A49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B2B09609EF091E0598A7BA0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB21137BB6308044D8B7C6E0 /* Wake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wake.swift; sourceTree = "<group>"; };
+		CAF4E622B28DDEC1D193EC6B /* BeaconSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconSettings.swift; sourceTree = "<group>"; };
+		CDEAB58BE7B059466C0AC17B /* HarborCodec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarborCodec.swift; sourceTree = "<group>"; };
+		CFD2D0278C7B078E65C1BA43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5E2D9ED42CEEF11CBDA066C /* HarborStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarborStoreTests.swift; sourceTree = "<group>"; };
+		D88CB25F652E735B1C1EA84A /* HarborFoldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarborFoldTests.swift; sourceTree = "<group>"; };
+		D99D824463E84285FB50C2C4 /* LampFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LampFace.swift; sourceTree = "<group>"; };
+		DAC2F2917C05C887F6562FD0 /* TileMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileMark.swift; sourceTree = "<group>"; };
+		E45ACFB065A97762A6A16984 /* HarborInk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarborInk.swift; sourceTree = "<group>"; };
+		E75C1543EFDFE22DE470F0FC /* BeaconLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconLaunchTests.swift; sourceTree = "<group>"; };
+		EF2E22609DDD21FD63B7C7CA /* SittingDraft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SittingDraft.swift; sourceTree = "<group>"; };
+		F468D74FA1420DC2317C2A13 /* CressetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CressetTests.swift; sourceTree = "<group>"; };
+		F4753BBFD8589B71D23DF17F /* BoardHarbor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardHarbor.swift; sourceTree = "<group>"; };
+		F5F03D771742D5294F58DFE9 /* BeaconLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconLaunch.swift; sourceTree = "<group>"; };
+		FB51CC773816DEDF67314235 /* LampVacancy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LampVacancy.swift; sourceTree = "<group>"; };
+		FDBCD2B827458CF68260B9B3 /* LampFigure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LampFigure.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		986F23B4DF75FB776D25AFE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B30A2B3A9346CC51E604F4F9 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F8E2BF9E744C156305553B5 = {
+			isa = PBXGroup;
+			children = (
+				49AD0969EF85D98B44682237 /* Cresset */,
+				E69C6985554673BA155DF56A /* CressetTests */,
+				5CAC35E2BABF03AFB55F32B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		202F55838F5C933D85C416D2 /* Tile */ = {
+			isa = PBXGroup;
+			children = (
+				3055A39F034BD02346CE6197 /* MarksAnalytics.swift */,
+				DAC2F2917C05C887F6562FD0 /* TileMark.swift */,
+			);
+			path = Tile;
+			sourceTree = "<group>";
+		};
+		40173A6B33356AEBAD99DD20 /* Volume */ = {
+			isa = PBXGroup;
+			children = (
+				7509DBB3236D7AA9048A51A0 /* Drift.swift */,
+				7B7F3822272A013141F20B2B /* DriftCaption.swift */,
+				410CFF8593D62C5F6B8D0084 /* MooringDraft.swift */,
+				6C8C923D75D21E25F13BC961 /* Volume.swift */,
+			);
+			path = Volume;
+			sourceTree = "<group>";
+		};
+		49AD0969EF85D98B44682237 /* Cresset */ = {
+			isa = PBXGroup;
+			children = (
+				7171661F84F0A4FBD617C6DF /* APIConfig.swift */,
+				CFD2D0278C7B078E65C1BA43 /* AppDelegate.swift */,
+				B2B09609EF091E0598A7BA0D /* Assets.xcassets */,
+				A5F9240DC6EC0BE0AA288A49 /* ContentView.swift */,
+				2386B819AB77DC33279C6843 /* CressetApp.swift */,
+				FA4F1A9BF0E65AE62190E55F /* Isle */,
+				FAB999975E88D33F2035DFF1 /* Lamp */,
+				202F55838F5C933D85C416D2 /* Tile */,
+				40173A6B33356AEBAD99DD20 /* Volume */,
+				961300C3AC5AA93B0BDA22E8 /* Wake */,
+			);
+			path = Cresset;
+			sourceTree = "<group>";
+		};
+		5CAC35E2BABF03AFB55F32B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DD16B443D2E45011F267936 /* Cresset.app */,
+				74208FD732092356B5A2C72A /* CressetTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		961300C3AC5AA93B0BDA22E8 /* Wake */ = {
+			isa = PBXGroup;
+			children = (
+				88CE0BD206CF9C1E52D4842A /* Sitting.swift */,
+				EF2E22609DDD21FD63B7C7CA /* SittingDraft.swift */,
+				BB21137BB6308044D8B7C6E0 /* Wake.swift */,
+			);
+			path = Wake;
+			sourceTree = "<group>";
+		};
+		E69C6985554673BA155DF56A /* CressetTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4E9522B037C47E46977FC9B /* BeaconClientTests.swift */,
+				E75C1543EFDFE22DE470F0FC /* BeaconLaunchTests.swift */,
+				F468D74FA1420DC2317C2A13 /* CressetTests.swift */,
+				D88CB25F652E735B1C1EA84A /* HarborFoldTests.swift */,
+				D5E2D9ED42CEEF11CBDA066C /* HarborStoreTests.swift */,
+				0CE6F7C8143B94DC6ED9287E /* HarborWatchTests.swift */,
+			);
+			path = CressetTests;
+			sourceTree = "<group>";
+		};
+		FA4F1A9BF0E65AE62190E55F /* Isle */ = {
+			isa = PBXGroup;
+			children = (
+				511212292120E063F5CDB4C5 /* Archipelago.swift */,
+				65F12F3970AAD7666FEA0C11 /* ArchipelagoTabs.swift */,
+				F5F03D771742D5294F58DFE9 /* BeaconLaunch.swift */,
+				F4753BBFD8589B71D23DF17F /* BoardHarbor.swift */,
+				1940F90F0A812B4E9F266A86 /* DayStamp.swift */,
+				CDEAB58BE7B059466C0AC17B /* HarborCodec.swift */,
+				0CCC946DAC34A7AAF0271001 /* HarborHold.swift */,
+				9261670DC720A96E295AE928 /* HarborSeed.swift */,
+				83FB65E2BD30C7745F3CBA45 /* HarborStore.swift */,
+				19E1B0DC244214B89B6558D8 /* HarborWatch.swift */,
+				565FDC3EA5EFAA17A65007A3 /* Isle.swift */,
+			);
+			path = Isle;
+			sourceTree = "<group>";
+		};
+		FAB999975E88D33F2035DFF1 /* Lamp */ = {
+			isa = PBXGroup;
+			children = (
+				30AA41395DC280CE0760276B /* BeaconClient.swift */,
+				CAF4E622B28DDEC1D193EC6B /* BeaconSettings.swift */,
+				E45ACFB065A97762A6A16984 /* HarborInk.swift */,
+				6E7F701D858FD0586E62B217 /* Lamp.swift */,
+				D99D824463E84285FB50C2C4 /* LampFace.swift */,
+				FDBCD2B827458CF68260B9B3 /* LampFigure.swift */,
+				6023C8D03E338ED745993F18 /* LampPassage.swift */,
+				FB51CC773816DEDF67314235 /* LampVacancy.swift */,
+				96B7942D8FEE84AC5B083059 /* WakeThenStep.swift */,
+			);
+			path = Lamp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAFCB456927104CEA846AF63 /* Cresset */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 171309A98E60500D01B68200 /* Build configuration list for PBXNativeTarget "Cresset" */;
+			buildPhases = (
+				216A7DE3AAAE183BCF9B4FD4 /* Sources */,
+				E99D5ECC09655EBB32AC23FA /* Resources */,
+				986F23B4DF75FB776D25AFE9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cresset;
+			packageProductDependencies = (
+				C8FAB9FD0176B8520D4BE9DB /* Alamofire */,
+			);
+			productName = Cresset;
+			productReference = 1DD16B443D2E45011F267936 /* Cresset.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F84B2C3999C72DE331E26FE2 /* CressetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B143B529DC04A8949AD55A2B /* Build configuration list for PBXNativeTarget "CressetTests" */;
+			buildPhases = (
+				08D995FB29572891802A92D4 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C774EB9A8B9ABCA3EF3A4FFF /* PBXTargetDependency */,
+			);
+			name = CressetTests;
+			packageProductDependencies = (
+			);
+			productName = CressetTests;
+			productReference = 74208FD732092356B5A2C72A /* CressetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B072BBBEF876FAF5C2858E82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AAFCB456927104CEA846AF63 = {
+						ProvisioningStyle = Automatic;
+					};
+					F84B2C3999C72DE331E26FE2 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 01ABB9BF47B89A34022E360F /* Build configuration list for PBXProject "Cresset" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 1F8E2BF9E744C156305553B5;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5EEF16C40A844956A13559AA /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5CAC35E2BABF03AFB55F32B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAFCB456927104CEA846AF63 /* Cresset */,
+				F84B2C3999C72DE331E26FE2 /* CressetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E99D5ECC09655EBB32AC23FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4ED72AD391FBB5B8B39E3D2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08D995FB29572891802A92D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				475AD719DCBF91E16F9C464E /* BeaconClientTests.swift in Sources */,
+				D75EF2879BA9E4C8459BBC74 /* BeaconLaunchTests.swift in Sources */,
+				312EB172732B00560E45A80A /* CressetTests.swift in Sources */,
+				1C161EAAF2827C2219DF012F /* HarborFoldTests.swift in Sources */,
+				DB90D8946E1D5AF09B1E6DA4 /* HarborStoreTests.swift in Sources */,
+				35BA682FFA7650DC77BBA97D /* HarborWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		216A7DE3AAAE183BCF9B4FD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FC6716F7A2D58FCE6ABE5DE /* APIConfig.swift in Sources */,
+				1BA98A30B3D2A05D6A3EE64A /* AppDelegate.swift in Sources */,
+				15CCBF423F32813898008DF7 /* Archipelago.swift in Sources */,
+				BDEE3E26E9B22C2DDBADC045 /* ArchipelagoTabs.swift in Sources */,
+				F0DE3CBF44B704321A5E3BD1 /* BeaconClient.swift in Sources */,
+				DEE920DB34D62F93C60B3EC8 /* BeaconLaunch.swift in Sources */,
+				0F44787AC7C36EE8D4D871E6 /* BeaconSettings.swift in Sources */,
+				C5CD6CDFC3A4EFFA9D374F53 /* BoardHarbor.swift in Sources */,
+				83A6CF748AE3B3447B111BBF /* ContentView.swift in Sources */,
+				56BD249E687E6C1DF637BC91 /* CressetApp.swift in Sources */,
+				F670173E5DF7F284779193DB /* DayStamp.swift in Sources */,
+				8084381E7AE712A3241EFC44 /* Drift.swift in Sources */,
+				7CAA0F655C9FE5FF23C9FB94 /* DriftCaption.swift in Sources */,
+				5582E10F8D9BAFA3102DA6B5 /* HarborCodec.swift in Sources */,
+				4DAAF80A070366E5B165A10A /* HarborHold.swift in Sources */,
+				7B19A2E2FB34A1D8CA7AB348 /* HarborInk.swift in Sources */,
+				1F1941A5E7EAB4E311444322 /* HarborSeed.swift in Sources */,
+				428C1F6413F0B5A5BBEC25F5 /* HarborStore.swift in Sources */,
+				4344F5C7FD5B395F90DC3BB6 /* HarborWatch.swift in Sources */,
+				EA62C955D0472A76BE363CAF /* Isle.swift in Sources */,
+				171121659C533C707D8037AA /* Lamp.swift in Sources */,
+				8E6C558E19EB25AE4B34B925 /* LampFace.swift in Sources */,
+				CCD4574C77DEC90CCD8D1D16 /* LampFigure.swift in Sources */,
+				34FCEBB46B92732B68FAB293 /* LampPassage.swift in Sources */,
+				240B4527E8A34C33474D9790 /* LampVacancy.swift in Sources */,
+				371EEDEDB45F5553968B5465 /* MarksAnalytics.swift in Sources */,
+				8E42261C755ACD98FE139474 /* MooringDraft.swift in Sources */,
+				B8F98DE2DD2B88B6483C91BE /* Sitting.swift in Sources */,
+				7D52757511B06589E2A6A3FA /* SittingDraft.swift in Sources */,
+				8FC4E443361D991B941E656C /* TileMark.swift in Sources */,
+				521ABA571FD4D5FDDE4DF885 /* Volume.swift in Sources */,
+				5FE01E570774BB0E9E61E675 /* Wake.swift in Sources */,
+				3BFCB6DA29765AA6AA2E6369 /* WakeThenStep.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C774EB9A8B9ABCA3EF3A4FFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAFCB456927104CEA846AF63 /* Cresset */;
+			targetProxy = 7A5D9FEC26588CF85FE114E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0967E048B3D6536E22D53FA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cresset.isle.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cresset.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cresset";
+			};
+			name = Release;
+		};
+		3E17CEE51EB8FC579FFBDFFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+		423D6DC333F17FBDA0A8DAD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Cresset;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cresset.isle;
+				PRODUCT_NAME = Cresset;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FD0C281FD2CD257F55D4977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cresset.isle.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cresset.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cresset";
+			};
+			name = Debug;
+		};
+		6FA4EB0E46358DBC8E54088A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+		72964E83C96250400D66BCB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Cresset;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cresset.isle;
+				PRODUCT_NAME = Cresset;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01ABB9BF47B89A34022E360F /* Build configuration list for PBXProject "Cresset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FA4EB0E46358DBC8E54088A /* Debug */,
+				3E17CEE51EB8FC579FFBDFFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		171309A98E60500D01B68200 /* Build configuration list for PBXNativeTarget "Cresset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423D6DC333F17FBDA0A8DAD2 /* Debug */,
+				72964E83C96250400D66BCB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B143B529DC04A8949AD55A2B /* Build configuration list for PBXNativeTarget "CressetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FD0C281FD2CD257F55D4977 /* Debug */,
+				0967E048B3D6536E22D53FA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5EEF16C40A844956A13559AA /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wrandecima-bit/Alamofire";
+			requirement = {
+				kind = revision;
+				revision = 7fdd403089757be2ce6991b287c7bef612c8bd04;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C8FAB9FD0176B8520D4BE9DB /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5EEF16C40A844956A13559AA /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B072BBBEF876FAF5C2858E82 /* Project object */;
+}

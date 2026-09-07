@@ -1,0 +1,17 @@
+The build settings include NSCameraUsageDescription set to "This app does not use the camera." The app never requests camera access, so that prompt is not shown. No other permission usage descriptions are present.
+
+There is no login, no in-app purchase, no user-generated content, no account deletion flow, and no App Tracking Transparency prompt.
+
+Cresset is a personal reading board for people who place a book on a genre isle and walk tiles as they read. Readers log minutes into Wake and Step when Wake holds ten pages. It is a local harbor, not a social club.
+
+No credentials or demo account are needed. After the launch interval the native Board is shown. Tap Place a book, enter Title, Page count, Genre isle, and Pace, pages per minute, then Moor this volume. Select an isle, tap Log minutes, enter Minutes, and tap Add to Wake. When Wake holds ten pages, tap Step to write a TileMark and walk one tile. Tap How stepping works to open Wake then step. Open the Analytics tab for TileMarks, lamps, and sittings. Open Settings for Local harbor, Re-run onboarding, Reset all data (the confirm copy is Erase every isle, sitting, and TileMark?), and Contact Cresset. Re-run onboarding to see Place a book on an island, Log minutes into a wake, Step when Wake holds ten, and Light the lighthouse.
+
+On launch the app calls Alamofire NetworkService.performRegistration at https://cresset-isle.pro/api/v1/users/register with an empty push token. Contact Cresset opens https://cresset-isle.pro/contact-us. Reading screens do not call BeaconClient.getJSON and do not fetch a book catalog. Volumes, sittings, TileMarks, lamps, and Wake stay on the device in UserDefaults under crs.store.v1 and in Application Support as harbor.json. If registration returns or has cached a content URL, Alamofire.WebContentView may display that URL; otherwise the native Board is shown.
+
+Behaviour does not differ by region. On-screen copy is English. Minutes, pages, and day stamps follow the device locale through NumberFormatter and Calendar.current.
+
+No licence or regulated-industry paperwork applies. The app is a personal reading log and is not a medical, financial, or licensed service.
+
+The app is a personal log only and gives no health, medical, or product-health recommendations.
+
+The app does not scan barcodes or QR codes.
