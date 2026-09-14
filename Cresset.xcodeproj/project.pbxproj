@@ -65,7 +65,7 @@
 		0CE6F7C8143B94DC6ED9287E /* HarborWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarborWatchTests.swift; sourceTree = "<group>"; };
 		1940F90F0A812B4E9F266A86 /* DayStamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayStamp.swift; sourceTree = "<group>"; };
 		19E1B0DC244214B89B6558D8 /* HarborWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarborWatch.swift; sourceTree = "<group>"; };
-		1DD16B443D2E45011F267936 /* Cresset.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Cresset.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DD16B443D2E45011F267936 /* Cresset.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cresset.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2386B819AB77DC33279C6843 /* CressetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CressetApp.swift; sourceTree = "<group>"; };
 		3055A39F034BD02346CE6197 /* MarksAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarksAnalytics.swift; sourceTree = "<group>"; };
 		30AA41395DC280CE0760276B /* BeaconClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconClient.swift; sourceTree = "<group>"; };
@@ -474,7 +474,7 @@
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Cresset;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
@@ -483,13 +483,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cresset.isle;
 				PRODUCT_NAME = Cresset;
 				SDKROOT = iphoneos;
@@ -595,7 +595,7 @@
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Cresset;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
@@ -604,13 +604,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cresset.isle;
 				PRODUCT_NAME = Cresset;
 				SDKROOT = iphoneos;
